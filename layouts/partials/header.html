@@ -134,6 +134,13 @@
                 </a>
             </li>
             {{- end }}
+			{{- range site.Params.socialIcons }}
+			<li>
+				<a href="{{ trim .url " " }}" target="_blank" rel="noopener noreferrer me" title="{{ .name | title }}">
+					{{ partial "svg.html" . }}
+				</a>
+			</li>
+			{{- end }}
         </ul>
     </nav>
 </header>

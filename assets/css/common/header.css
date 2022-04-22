@@ -79,6 +79,12 @@ body:not(.dark) #sun {
     border-bottom: 2px solid currentColor;
 }
 
+#menu a svg {
+    height: 20px;
+    width: 20px;
+	vertical-align: middle;
+}
+
 .lang-switch li,
 .lang-switch ul,
 .logo-switches {
